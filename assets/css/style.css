@@ -15,4 +15,31 @@ body {
 
 .navBar li {
     display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+
+.navBar li a:hover {
+    background-color: #3AB4E8;
+}
+
+.active {
+    background-color: #0B03FF;
+}
+
+.container {
+    content: "";
+    clear: both;
+    display: block;
+    text-align: center;
+    width: 66%;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+}
+
+
+
+footer {
+    text-align: center;
 }
