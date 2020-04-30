@@ -1,30 +1,51 @@
 body {
-    background-color: #4cffab;
+    background-color: #4359FF;
+}
+
+header {
+    background-image: url("../../assets/images/transitionScaled.png");
+    height: 200px;
 }
 
 .title {
     text-align: center;
+    font-style: italic;
+    padding: 53px 0;
+}
+
+h1 {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 3rem;
 }
 
 .navBar {
     list-style-type: none;
     position: sticky;
-    float: right;
-    padding: 10px;
+    width: 550px;
+    margin: 0 auto;
+    background-color: rgba(130, 210, 255, .5);
+    padding: 10px 0;
+    border: 1px groove #A8B2FF;
+    border-radius: 5px;
 }
 
 .navBar li {
     display: inline-block;
     text-align: center;
-    margin: 5px;
+}
+
+.navBar li a {
+    padding: 10px 8px;
+    border-radius: 5px;
+    margin: 0;
 }
 
 .navBar li a:hover {
-    background-color: #3AB4E8;
+    background-color: rgba(130, 210, 255, .2);
 }
 
 .active {
-    background-color: #0B03FF;
+    background-color: rgba(130, 210, 255, .5);
 }
 
 .container {
@@ -38,6 +59,9 @@ body {
     margin: auto;
 }
 
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
 
 
 footer {
