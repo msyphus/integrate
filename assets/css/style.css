@@ -64,11 +64,16 @@ h1 {
 }
 
 p {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
 footer {
     text-align: center;
     padding: 1%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer i {
+    font-style: italic;
 }
