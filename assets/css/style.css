@@ -1,11 +1,39 @@
 body {
-    background-color: #4359FF;
+    /* background-color: #4359FF; */
+    /* background-image: linear-gradient(to bottom right, #4359FF, #8F9CFF); */
+    /* background-image: linear-gradient(rgba(67, 89, 255, 1),rgba(67, 89, 255, .3)); */
+    /* background-image: url("../images/fuzzBg.png");
+    background-size: cover; */
+    /* background-image: url("../images/person-writing-on-notebook-669615.jpg");
+    background-size: cover; */
+}
+
+.sideBar {
+    width: 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 0.5s
+}
+
+.sideBar a {
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 header {
-    background-image: url("../../assets/images/transitionScaled.png");
+    /* background-image: url("../../assets/images/transitionScaled.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     height: 200px;
     position: -webkit-sticky; /*For Safari*/
     position: sticky;
