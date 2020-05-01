@@ -2,8 +2,9 @@
 //     $("#sideNav").hide();
 // })
 
-$("#menu").on("click", function() {
+$("#menuIcon").on("click", function() {
     // $("#sideNav").show();
+    $("#menuIcon").css("margin-left", "210px")
     $("#sideNav").css("width", "200px")
 })
 

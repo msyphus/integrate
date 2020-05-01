@@ -8,6 +8,19 @@ body {
     background-size: cover; */
 }
 
+.barTop, .barMiddle, .barBottom {
+    width: 25px;
+    height: 3px;
+    border: 1px groove #cccccc;
+    background-color: lightgray;
+    border-radius: 30px;
+    margin: 2px;
+}
+
+#menuIcon {
+    transition: 0.5s;
+}
+
 .sideBar {
     width: 0;
     overflow: hidden;
