@@ -13,6 +13,7 @@ body {
 }
 
 #menuIcon {
+    margin: 1% 0 1% 1%;
     transition: 0.5s;
 }
 
@@ -27,9 +28,21 @@ body {
 }
 
 .sideBar a {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    padding: 5% 10%;
     text-decoration: none;
     display: block;
     transition: 0.3s;
+}
+
+.sideBar a:hover {
+    background-color: rgba(130, 210, 255, .5)
+}
+
+.active {
+    background-color: #4359FF;
 }
 
 .title {
