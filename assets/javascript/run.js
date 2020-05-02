@@ -1,4 +1,5 @@
 var menuMinimized = true;
+var setSiteMode = "light";
 
 $("#menuIcon").on("click", function() {
     if(menuMinimized === true) {
@@ -16,4 +17,18 @@ $("#menuIcon").on("click", function() {
         $(".barBottom").css("transform", "rotate(0deg)");
         menuMinimized = true;
     }
+});
+
+$("#modeToggle").on("click", function() {
+    if (setSiteMode === "light"){
+       $("body").css("background-image", "radial-gradient(#000000, #333333)");
+       $("h1, h2, footer").css("color", "white");
+       setSiteMode = "dark";
+    } else {
+        $("body").css("background-image", "radial-gradient(#ffffff, #e6e6e6)");
+        $("h1, h2, footer").css("color", "black");
+        setSiteMode = "light";
+    }
+    $("#modeToggle").toggleClass("switchBg");
+    $("#modeToggleBtn").toggleClass("btnMove");
 });
