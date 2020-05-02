@@ -116,9 +116,16 @@ p {
     clear: both;
     display: block; */
     width: 66%;
-    background-color: white;
-    margin: auto;
+    height: 330px;
+    /* background-color: white; */
+    background-image: linear-gradient(to right, rgba(67,89,255,.7), rgba(67,89,255,0));
+    margin: 1% auto 2%;
     padding: 2% 1%;
+    /* border: 2px groove #8F9CFF; */
+    border-width: 3px;
+    border-style: groove;
+    border-image: linear-gradient(to right, rgba(143,156,255,.7), rgba(143,156,255,0) 50%) 1;
+    border-right: none;
 }
 
 footer {

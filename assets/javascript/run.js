@@ -22,11 +22,11 @@ $("#menuIcon").on("click", function() {
 $("#modeToggle").on("click", function() {
     if (setSiteMode === "light"){
        $("body").css("background-image", "radial-gradient(#000000, #333333)");
-       $(".sideBar a, #mode, h1, h2, footer").css("color", "white");
+       $(".sideBar a, #mode, h1, h2, p, footer").css("color", "white");
        setSiteMode = "dark";
     } else {
         $("body").css("background-image", "radial-gradient(#ffffff, #e6e6e6)");
-        $(".sideBar a, #mode, h1, h2, footer").css("color", "black");
+        $(".sideBar a, #mode, h1, h2, p, footer").css("color", "black");
         setSiteMode = "light";
     }
     $("#modeToggle").toggleClass("switchBg");
