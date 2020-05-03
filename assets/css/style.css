@@ -108,29 +108,69 @@ h2 {
 
 p {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.4em;
 }
 
 .container {
-    /* content: "";
-    clear: both;
-    display: block; */
     width: 66%;
     height: 330px;
-    /* background-color: white; */
     background-image: linear-gradient(to right, rgba(67,89,255,.7), rgba(67,89,255,0));
     margin: 1% auto 2%;
     padding: 2% 1%;
-    /* border: 2px groove #8F9CFF; */
     border-width: 3px;
     border-style: groove;
     border-image: linear-gradient(to right, rgba(143,156,255,.7), rgba(143,156,255,0) 50%) 1;
     border-right: none;
 }
 
+.imgDiv {
+    width: 40%;
+    height: 100%;
+    margin-right: 3%;
+    float: left;
+}
+
+.contentImg {
+    width: 100%;
+    height: 100%;
+    margin-right: 3%;
+    border: 2px groove #8F9CFF; 
+    border-radius: 5px;
+}
+
+.textDiv {
+    float: right;
+    width: 57%;
+    height: 100%;
+    padding-top: 5%;
+}
+
+.initiative {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4em;
+    list-style-type: disc;
+    margin-left: 4%
+}
+
+.buttonDiv {
+    width: 100%;
+    text-align: center;
+}
+
+.regButton {
+    margin: 4% auto;
+    padding: .5% 1.5%;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to top right, #212C80, #8F9CFF);
+    border: 2px groove #8F9CFF;
+    border-radius: 20px;
+}
+
 footer {
     background-color: #4359FF;
-    /* text-align: center; */
     padding: 1%;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
