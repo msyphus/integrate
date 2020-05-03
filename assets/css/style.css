@@ -13,7 +13,7 @@ body {
 }
 
 #menuIcon {
-    margin: 1% 0 1% 1%;
+    margin-left: 1%;
     float: left;
     transition: 0.5s;
 }
@@ -23,7 +23,7 @@ body {
     overflow: hidden;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 2%;
     left: 0;
     transition: 0.5s
 }
@@ -47,7 +47,7 @@ body {
 }
 
 header {
-    display: block;
+    top: 0;
 }
 
 .title {
@@ -73,7 +73,7 @@ h2 {
 .nightSwitch {
     display: inline-block;
     float: right;
-    margin: 1% 1% 1% 0;
+    margin-right: 1%;
     justify-content: center;
 }
 
@@ -214,4 +214,35 @@ footer i {
     display: block;
     margin: 1% auto;
     text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container{
+        height: auto;
+    }
+    .imgDiv {
+        width: 95%;
+        margin: 0 auto;
+        float: none;
+        display: block;
+
+    }
+    .textDiv {
+        float: none;
+        display: block;
+        margin-left: 3%;
+        width: 95%;
+    }
+    
+    .initiative {
+        margin-left: 6%
+    }
+
+    .sideBar {
+        border-radius: 0 5px 5px 0;
+    }
+
+    .sideBar a {
+        background-color: rgba(204, 204, 204, .7);
+    }
 }

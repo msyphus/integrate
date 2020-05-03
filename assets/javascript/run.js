@@ -3,8 +3,8 @@ var setSiteMode = "light";
 
 $("#menuIcon").on("click", function() {
     if(menuMinimized === true) {
-        $("#menuIcon").css("margin-left", "12%");
-        $("#sideNav").css("width", "11%");
+        $("#menuIcon").css("margin-left", "110px");
+        $("#sideNav").css("width", "100px");
         $(".barMiddle").hide();
         $(".barTop").css("transform", "rotate(45deg) translate(-1px, 10px)");
         $(".barBottom").css("transform", "rotate(-45deg) translate(-6px, -6px)");
@@ -22,11 +22,11 @@ $("#menuIcon").on("click", function() {
 $("#modeToggle").on("click", function() {
     if (setSiteMode === "light"){
        $("body").css("background-image", "radial-gradient(#000000, #333333)");
-       $(".sideBar a, #mode, h1, h2, p, footer").css("color", "white");
+       $(".sideBar a, #mode, .initiative, h1, h2, p, footer").css("color", "white");
        setSiteMode = "dark";
     } else {
         $("body").css("background-image", "radial-gradient(#ffffff, #e6e6e6)");
-        $(".sideBar a, #mode, h1, h2, p, footer").css("color", "black");
+        $(".sideBar a, #mode, .initiative, h1, h2, p, footer").css("color", "black");
         setSiteMode = "light";
     }
     $("#modeToggle").toggleClass("switchBg");
