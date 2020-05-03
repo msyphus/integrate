@@ -121,7 +121,7 @@ p {
     border-width: 3px;
     border-style: groove;
     border-image: linear-gradient(to right, rgba(143,156,255,.7), rgba(143,156,255,0) 50%) 1;
-    border-right: none;
+    border-right: none;   
 }
 
 .imgDiv {
@@ -221,13 +221,18 @@ footer i {
     .container{
         height: auto;
     }
+
     .imgDiv {
         width: 95%;
         margin: 0 auto;
         float: none;
         display: block;
-
     }
+
+    .contentImg {
+        margin: 0;
+    }
+
     .textDiv {
         float: none;
         display: block;
