@@ -281,11 +281,16 @@ footer i {
 }
 
 @media only screen and (max-width: 1000px) {
-    .container{
+    .container, .containerReverse {
         height: auto;
+        padding-bottom: 2%;
     }
 
-    .imgDiv {
+    .container h3, .container p, .container ul {
+        padding-left: 3%;
+    }
+
+    .imgDiv, .aboutImg, .imgDivReverse {
         width: 95%;
         margin: 0 auto;
         float: none;
@@ -296,7 +301,7 @@ footer i {
         margin: 0;
     }
 
-    .textDiv {
+    .textDiv, .textDivReverse, .textDivFood {
         float: none;
         display: block;
         margin-left: 3%;
@@ -307,11 +312,24 @@ footer i {
         margin-left: 6%
     }
 
+    .regButtonFood, .regButton {
+        margin: 4% auto 0%;
+    }
+
     .sideBar {
         border-radius: 0 5px 5px 0;
     }
 
     .sideBar a {
         background-color: rgba(204, 204, 204, .7);
+    }
+
+    .adjTitle {
+        font-family: 'Sarabun', sans-serif;
+        font-size: 1.7em;
+        font-style: italic;
+        font-weight: bold;
+        padding-bottom: 2%;
+        margin-top: 4%;
     }
 }
