@@ -258,16 +258,22 @@ footer i {
     text-align: center;
 }
 
+.iconDiv a:link {
+    color: #bbbbbb;
+}
+
 .emailIcon {
     font-size: 2.5em;
     margin: 0 4% 0 0;
     color: #bbbbbb;
+    cursor: pointer;
 }
 
 .contactIcon {
     font-size: 2.5em;
     color: #bbbbbb;
     margin: 0 4%;
+    cursor: pointer;
 }
 
 .donate {
