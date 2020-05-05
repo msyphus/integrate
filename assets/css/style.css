@@ -338,7 +338,15 @@ footer i {
     }
 
     .sideBar a {
-        background-color: rgba(204, 204, 204, .7);
+        background-color: rgba(204, 204, 204, .9);
+    }
+
+    .sideBar a:hover {
+        background-color: rgba(130, 210, 255, .9)
+    }
+
+    .active {
+        background-color: #4359FF!important;
     }
 
     .adjTitle {
