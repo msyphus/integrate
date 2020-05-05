@@ -2,6 +2,12 @@ body {
     background-image: radial-gradient(#ffffff, #e6e6e6);
 }
 
+header {
+    position: sticky;
+    top: 0;
+    background-image: radial-gradient(#ffffff, #e6e6e6);
+}
+
 .barTop, .barMiddle, .barBottom {
     width: 25px;
     height: 3px;
@@ -234,8 +240,11 @@ p {
 }
 
 footer {
+    position: sticky;
+    bottom: 0;
+    height: 10vh;
     background-color: #4359FF;
-    padding: 1%;
+    padding: .75% 1% 1%;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
@@ -249,13 +258,13 @@ footer i {
 }
 
 .emailIcon {
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 0 4% 0 0;
     color: #bbbbbb;
 }
 
 .contactIcon {
-    font-size: 3em;
+    font-size: 2.5em;
     color: #bbbbbb;
     margin: 0 4%;
 }
@@ -264,7 +273,7 @@ footer i {
     margin: 0 0 0 4%;
     padding: .5% 1.5%;
     position: relative;
-    top: -10px;
+    top: -5px;
     font-family: 'Sarabun', sans-serif;
     font-size: 1rem;
     font-weight: bold;
@@ -276,11 +285,19 @@ footer i {
 
 .copyrightInfo {
     display: block;
-    margin: 1% auto;
+    margin: auto;
     text-align: center;
 }
 
 @media only screen and (max-width: 1000px) {
+    .title h1 {
+        font-size: 6vh;
+    }
+
+    .title h2 {
+        font-size: 4vh;
+    }
+    
     .container, .containerReverse {
         height: auto;
         padding-bottom: 2%;
@@ -331,5 +348,25 @@ footer i {
         font-weight: bold;
         padding-bottom: 2%;
         margin-top: 4%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .title h1 {
+        font-size: 4.5vh;
+    }
+
+    .title h2 {
+        font-size: 2.5vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title h1 {
+        font-size: 4vh;
+    }
+
+    .title h2 {
+        font-size: 2vh;
     }
 }
