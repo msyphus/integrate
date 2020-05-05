@@ -119,11 +119,31 @@ p {
     border-right: none;   
 }
 
+.containerReverse {
+    width: 80%;
+    height: auto;
+    overflow: auto;
+    background-image: linear-gradient(to left, rgba(67,89,255,.7), rgba(67,89,255,0));
+    margin: 1% auto 2%;
+    padding: 2% 1%;
+    border-width: 3px;
+    border-style: groove;
+    border-image: linear-gradient(to left, rgba(143,156,255,.7), rgba(143,156,255,0) 50%) 1;
+    border-left: none;   
+}
+
 .imgDiv {
     width: 40%;
     height: 360px;
     margin-right: 3%;
     float: left;
+}
+
+.imgDivReverse {
+    width: 40%;
+    height: 360px;
+    margin-left: 3%;
+    float: right;
 }
 
 .contentImg {
@@ -134,8 +154,23 @@ p {
     border-radius: 5px;
 }
 
+.contentImgReverse {
+    width: 100%;
+    height: 100%;
+    margin-left: 3%;
+    border: 2px groove #8F9CFF; 
+    border-radius: 5px;
+}
+
 .textDiv {
     float: right;
+    width: 57%;
+    height: 100%;
+    padding-top: 5%;
+}
+
+.textDivReverse {
+    float: left;
     width: 57%;
     height: 100%;
     padding-top: 5%;
