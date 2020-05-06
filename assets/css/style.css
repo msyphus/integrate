@@ -246,6 +246,7 @@ p {
     background-image: linear-gradient(to top right, #212C80, #8F9CFF);
     border: 2px groove #8F9CFF;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 footer {
