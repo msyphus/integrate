@@ -203,6 +203,10 @@ b {
     border-radius: 5px;
 }
 
+.volunteerImg {
+    width: 40%;
+}
+
 .textDiv {
     float: right;
     width: 57%;
