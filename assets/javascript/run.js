@@ -1,5 +1,14 @@
 var menuMinimized = true;
-var setSiteMode = "light";
+var setSiteMode = localStorage.getItem("userMode");
+console.log(setSiteMode);
+modeChange();
+setButton();
+
+function setButton() {
+    if(setSiteMode === "dark") {
+    toggleStyle();
+    }
+};
 
 $("#menuIcon").on("click", function() {
     if(menuMinimized === true) {
@@ -19,18 +28,31 @@ $("#menuIcon").on("click", function() {
     }
 });
 
-$("#modeToggle").on("click", function() {
+function modeChange() {
     if (setSiteMode === "light"){
-       $("body").css("background-image", "radial-gradient(#000000, #333333)");
-       $("header").css("background-image", "radial-gradient(#000000, #333333)");
-       $(".sideBar a, #mode, .initiative, .restyleList, h1, h2, h3, p, footer").css("color", "white");
-       setSiteMode = "dark";
-    } else {
         $("body").css("background-image", "radial-gradient(#ffffff, #e6e6e6)");
         $("header").css("background-image", "radial-gradient(#ffffff, #e6e6e6)");
         $(".sideBar a, #mode, .initiative, .restyleList, h1, h2, h3, p, footer").css("color", "black");
-        setSiteMode = "light";
-    }
+     } else {
+        $("body").css("background-image", "radial-gradient(#000000, #333333)");
+        $("header").css("background-image", "radial-gradient(#000000, #333333)");
+        $(".sideBar a, #mode, .initiative, .restyleList, h1, h2, h3, p, footer").css("color", "white");
+     }
+};
+
+function toggleStyle() {
     $("#modeToggle").toggleClass("switchBg");
     $("#modeToggleBtn").toggleClass("btnMove");
+};
+
+$("#modeToggle").on("click", function() { 
+    if (setSiteMode === "light"){
+        setSiteMode = "dark";
+        localStorage.setItem("userMode", setSiteMode);
+    } else {
+        setSiteMode = "light";
+        localStorage.setItem("userMode", setSiteMode);
+    }
+    modeChange();
+    toggleStyle();
 });
