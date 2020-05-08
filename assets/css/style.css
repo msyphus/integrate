@@ -9,6 +9,32 @@ header {
 }
 
 .barTop, .barMiddle, .barBottom {
+    position: absolute;
+    top: 0;
+    width: 25px;
+    height: 3px;
+    border: 1px groove #cccccc;
+    background-color: lightgray;
+    border-radius: 30px;
+    margin: 2px;
+    transition: 0.5s;
+}
+
+.barMiddle {
+    position: absolute;
+    top: 7px;
+    width: 25px;
+    height: 3px;
+    border: 1px groove #cccccc;
+    background-color: lightgray;
+    border-radius: 30px;
+    margin: 2px;
+    transition: 0.5s;
+}
+
+.barBottom {
+    position: absolute;
+    top: 14px;
     width: 25px;
     height: 3px;
     border: 1px groove #cccccc;
@@ -19,6 +45,7 @@ header {
 }
 
 #menuIcon {
+    position: relative;
     margin-left: 1%;
     float: left;
     transition: 0.5s;
@@ -347,6 +374,24 @@ footer i {
     text-align: center;
 }
 
+@media only screen and (max-width: 1088px) {
+    .sideBar {
+        border-radius: 0 5px 5px 0;
+    }
+
+    .sideBar a {
+        background-color: rgba(204, 204, 204, .9);
+    }
+
+    .sideBar a:hover {
+        background-color: rgba(130, 210, 255, .9)
+    }
+
+    .active {
+        background-color: #4359FF!important;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .title h1 {
         font-size: 6vh;
@@ -391,22 +436,6 @@ footer i {
         margin: 4% auto 0%;
     }
 
-    .sideBar {
-        border-radius: 0 5px 5px 0;
-    }
-
-    .sideBar a {
-        background-color: rgba(204, 204, 204, .9);
-    }
-
-    .sideBar a:hover {
-        background-color: rgba(130, 210, 255, .9)
-    }
-
-    .active {
-        background-color: #4359FF!important;
-    }
-
     .adjTitle {
         font-family: 'Sarabun', sans-serif;
         font-size: 1.7em;
@@ -427,6 +456,13 @@ footer i {
     }
 }
 
+@media only screen and (max-width: 700px) {
+    #menuIcon {
+        width: 30px;
+        height: 70px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .title h1 {
         font-size: 4vh;
@@ -434,5 +470,17 @@ footer i {
 
     .title h2 {
         font-size: 2vh;
+    }
+
+    .emailIcon {
+        margin: 0 2.5% 0 0;
+    }
+    
+    .contactIcon {
+        margin: 0 2.5%;
+    }
+    
+    .donate {
+        margin: 0 0 0 2.5%;
     }
 }
