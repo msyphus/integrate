@@ -185,6 +185,20 @@ b {
     float: left;
 }
 
+.imgDivShort {
+    width: 40%;
+    height: 250px;
+    margin-right: 3%;
+    float: left;
+}
+
+.imgDivReverseShort {
+    width: 40%;
+    height: 250px;
+    margin-left: 3%;
+    float: right;
+}
+
 .contentImg {
     width: 100%;
     height: 100%;
