@@ -401,6 +401,11 @@ footer i {
     .title h2 {
         font-size: 4vh;
     }
+
+    .headerAdj {
+        margin-top: 5%;
+        padding-bottom: 3%;
+    }
     
     .container, .containerReverse {
         height: auto;
