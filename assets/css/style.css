@@ -48,6 +48,7 @@ header {
     position: relative;
     margin-left: 1%;
     float: left;
+    cursor: pointer;
     transition: 0.5s;
 }
 
@@ -410,8 +411,15 @@ footer i {
         padding-left: 3%;
     }
 
-    .imgDiv, .aboutImg, .imgDivReverse {
+    .imgDiv, .aboutImg, .imgDivReverse, .imgDivShort {
         width: 95%;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+
+    .resizedImgDiv, .imgDivReverseShort {
+        width: 50%;
         margin: 0 auto;
         float: none;
         display: block;
@@ -421,7 +429,7 @@ footer i {
         margin: 0;
     }
 
-    .textDiv, .textDivReverse, .textDivFood {
+    .textDiv, .textDivReverse, .textDivFood, .resizedTextDiv {
         float: none;
         display: block;
         margin-left: 3%;
@@ -430,6 +438,10 @@ footer i {
     
     .initiative {
         margin-left: 6%
+    }
+
+    .restyleList {
+        margin: 4% 0 4% 4%;
     }
 
     .regButtonFood, .regButton {
@@ -453,6 +465,10 @@ footer i {
 
     .title h2 {
         font-size: 2.5vh;
+    }
+
+    p {
+        margin-bottom: 4%;
     }
 }
 

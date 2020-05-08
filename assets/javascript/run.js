@@ -32,11 +32,11 @@ function modeChange() {
     if (setSiteMode === "light"){
         $("body").css("background-image", "radial-gradient(#ffffff, #e6e6e6)");
         $("header").css("background-image", "radial-gradient(#ffffff, #e6e6e6)");
-        $(".sideBar a, #mode, .initiative, .restyleList, h1, h2, h3, p, footer").css("color", "black");
+        $(".sideBar a, #mode, .initiative, .restyleList, h1, h2, h3, h4, p, footer").css("color", "black");
      } else {
         $("body").css("background-image", "radial-gradient(#000000, #333333)");
         $("header").css("background-image", "radial-gradient(#000000, #333333)");
-        $(".sideBar a, #mode, .initiative, .restyleList, h1, h2, h3, p, footer").css("color", "white");
+        $(".sideBar a, #mode, .initiative, .restyleList, h1, h2, h3, h4, p, footer").css("color", "white");
      }
 };
 
