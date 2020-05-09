@@ -20,4 +20,4 @@ This site was developed by Mark Syphus using the following technologies:
 * Google Fonts
 * Font Awesome
 
-Images were retrieved from [Pixabay](https://pixabay.com/) and some were altered.
+Images were retrieved from [Pixabay](https://pixabay.com/) and some were altered.  Logo created by Mark Syphus.
