@@ -1,7 +1,7 @@
 # Integrate Institute for Self-reliance -- Official Website
 
 ### Demo
-This site can be viewed [here.](https://github.com/msyphus/sri)
+This site can be viewed [here.](https://msyphus.github.io/integrate/)
 
 ### General
 The future official website for the Integrate Institute for Self-reliance.  This is a non-profit organization that has not yet been formally established so the site is currently not hosted on an official domain and some links are not yet activated.
