@@ -279,6 +279,7 @@ b {
     font-size: 1.4em;
     list-style-type: disc;
     margin-left: 4%;
+    margin-bottom: 1.5%;
 }
 
 .restyleList {
@@ -462,7 +463,8 @@ p em {
     }
     
     .initiative {
-        margin-left: 6%
+        margin-left: 6%;
+        margin-bottom: 4%;
     }
 
     .restyleList {
