@@ -333,6 +333,11 @@ footer i {
     font-style: italic;
 }
 
+p em {
+    font-style: italic;
+    text-decoration: underline;
+}
+
 .iconDiv {
     text-align: center;
 }
@@ -353,6 +358,17 @@ footer i {
     color: #bbbbbb;
     margin: 0 4%;
     cursor: pointer;
+}
+
+.popup {
+    width: 40px;
+    height: 40px;
+    font-size: .5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: inline-block;
+    position: absolute;
+    padding-top: 8px;
+    visibility: hidden;
 }
 
 .donate {

@@ -56,3 +56,30 @@ $("#modeToggle").on("click", function() {
     modeChange();
     toggleStyle();
 });
+
+$(".contactIcon, .donate").on("mouseover", function(event) {
+    var iconHover = event.currentTarget.attributes.value.value;
+    console.log(iconHover);
+    switch(iconHover) {
+        case "linkedin":
+            $("#linkedin").css("visibility", "visible");
+            setTimeout(popdown, 1000);
+            break;
+        case "facebook":
+            $("#facebook").css("visibility", "visible");
+            setTimeout(popdown, 1000);
+            break;
+        case "youtube":
+            $("#youtube").css("visibility", "visible");
+            setTimeout(popdown, 1000);
+            break;
+        case "donate":
+            $("#donate").css("visibility", "visible");
+            setTimeout(popdown, 1000);
+    }
+    
+});
+
+function popdown() {
+    $(".popup").css("visibility", "hidden");
+};
