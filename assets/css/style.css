@@ -80,6 +80,12 @@ header {
     background-color: #4359FF;
 }
 
+.logo {
+    display: inline-block;
+    float: left;
+    height: 90px;
+}
+
 .title {
     margin: 1% auto;
     width: 67%;
@@ -89,15 +95,16 @@ header {
 
 h1 {
     font-family: 'Sarabun', sans-serif;
-    font-size: 3rem;
+    font-size: 6vh;
 }
 
 h2 {
     font-family: 'Sarabun', sans-serif;
-    font-size: 2em;
+    font-size: 4.5vh;
     font-style: italic;
     text-align: center;
     padding-bottom: 1%;
+    margin-top: 1%;
 }
 
 h3 {
@@ -412,15 +419,24 @@ p em {
     .active {
         background-color: #4359FF!important;
     }
-}
 
-@media only screen and (max-width: 1000px) {
     .title h1 {
-        font-size: 6vh;
+        font-size: 5.5vh;
     }
 
     .title h2 {
         font-size: 4vh;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .title h1 {
+        font-size: 5vh;
+        padding-top: 1%;
+    }
+
+    .title h2 {
+        font-size: 3.5vh;
     }
 
     .headerAdj {
@@ -485,14 +501,24 @@ p em {
     }
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 972px) {
     .title h1 {
         font-size: 4.5vh;
     }
 
     .title h2 {
+        font-size: 3vh;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .title h1 {
+        font-size: 4vh;
+        padding-top: 2%;
+    }
+
+    .title h2 {
         font-size: 2.5vh;
-        margin-top: 1%;
     }
 
     p {
@@ -505,11 +531,22 @@ p em {
         width: 30px;
         height: 70px;
     }
+
+    .title h1 {
+        font-size: 3.5vh;
+        padding-top: 3%;
+    }
+
+    .title h2 {
+        font-size: 2vh;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
     .title h1 {
         font-size: 4vh;
+        padding-top: 0;
     }
 
     .title h2 {
