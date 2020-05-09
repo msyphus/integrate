@@ -360,6 +360,10 @@ p em {
     cursor: pointer;
 }
 
+.contactIcon[value] {
+    opacity: 30%;
+}
+
 .popup {
     width: 40px;
     height: 40px;
